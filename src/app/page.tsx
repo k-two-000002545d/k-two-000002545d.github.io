@@ -26,10 +26,10 @@ export default function Home() {
       </section>
 
       <section className="text-gray-700 border-t border-gray-200">
-        <div className="container px-5 py-12 w-full mx-auto">
+        <div className="container px-5 pt-12 pb-6 w-full mx-auto">
           <div className="text-center mb-12">
             <h1 className="text-2xl sm:text-3xl font-medium mb-2 text-gray-900">Skils</h1>
-            <p className=" pb-1">
+            <p className="pb-1">
               PythonとJavaScriptをメインに自動化や業務効率化システムを組むことが多いです。
               <br />
               最近はStable Diffusionで独自Loraを作成して画像生成するのにハマっています。
@@ -90,6 +90,18 @@ export default function Home() {
               <div className="bg-gray-50 rounded-lg p-2 border">
                 <div className="flex items-center justify-center">
                   <div className="rounded-full md:w-1/3 sm:w-1/4">
+                    <img className="md:w-3/4 w-10 min-w-10" src="./img/django.png" alt="" />
+                  </div>
+                  <h2 className="ml-2 font-bold">
+                    Django
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div className="lg:w-1/4 md:w-1/3 sm:w-1/2 w-1/2 p-2">
+              <div className="bg-gray-50 rounded-lg p-2 border">
+                <div className="flex items-center justify-center">
+                  <div className="rounded-full md:w-1/3 sm:w-1/4">
                     <img className="md:w-3/4 w-10 min-w-10" src="./img/next.png" alt="" />
                   </div>
                   <h2 className="ml-2 font-bold">
@@ -102,18 +114,7 @@ export default function Home() {
               <div className="bg-gray-50 rounded-lg p-2 border">
                 <div className="flex items-center justify-center">
                   <div className="rounded-full md:w-1/3 sm:w-1/4">
-                    <img className="md:w-3/4 w-10 min-w-10" src="./img/django.png" alt="" />
-                  </div>
-                  <h2 className="ml-2 font-bold">
-                    Django
-                  </h2>
-                </div>
-              </div>
-            </div>
-            <div className="lg:w-1/4 md:w-1/3 sm:w-1/2 w-1/2 p-2">
-              <div className="bg-gray-50 rounded-lg p-2 border">
-                <div className="flex items-center justify-center">
-                  <div className="rounded-full">
+                    <img className="md:w-3/4 w-10 min-w-10" src="./img/gas.png" alt="" />
                   </div>
                   <h2 className="ml-2 font-bold">
                     GAS
@@ -124,7 +125,8 @@ export default function Home() {
             <div className="lg:w-1/4 md:w-1/3 sm:w-1/2 w-1/2 p-2">
               <div className="bg-gray-50 rounded-lg p-2 border">
                 <div className="flex items-center justify-center">
-                  <div className="rounded-full">
+                  <div className="rounded-full md:w-1/3 sm:w-1/4">
+                    <img className="md:w-3/4 w-10 min-w-10" src="./img/gcp.png" alt="" />
                   </div>
                   <h2 className="ml-2 font-bold">
                     GCP
@@ -136,7 +138,8 @@ export default function Home() {
             <div className="lg:w-1/4 md:w-1/3 sm:w-1/2 w-1/2 p-2">
               <div className="bg-gray-50 rounded-lg p-2 border">
                 <div className="flex items-center justify-center">
-                  <div className="rounded-full sm:w-0.5">
+                  <div className="rounded-full md:w-1/3 sm:w-1/4">
+                    <img className="md:w-3/4 w-10 min-w-10" src="./img/mysql.png" alt="" />
                   </div>
                   <h2 className="ml-2 font-bold">
                     MySQL
@@ -147,7 +150,8 @@ export default function Home() {
             <div className="lg:w-1/4 md:w-1/3 sm:w-1/2 w-1/2 p-2">
               <div className="bg-gray-50 rounded-lg p-2 border">
                 <div className="flex items-center justify-center">
-                  <div className="rounded-full">
+                  <div className="rounded-full md:w-1/3 sm:w-1/4">
+                    <img className="md:w-3/4 w-10 min-w-10" src="./img/mongodb.png" alt="" />
                   </div>
                   <h2 className="ml-2 font-bold">
                     MongoDB
@@ -158,7 +162,8 @@ export default function Home() {
             <div className="lg:w-1/4 md:w-1/3 sm:w-1/2 w-1/2 p-2">
               <div className="bg-gray-50 rounded-lg p-2 border">
                 <div className="flex items-center justify-center">
-                  <div className="rounded-full">
+                  <div className="rounded-full md:w-1/3 sm:w-1/4">
+                    <img className="md:w-3/4 w-10 min-w-10" src="./img/selenium.png" alt="" />
                   </div>
                   <h2 className="ml-2 font-bold">
                     selenium
@@ -169,7 +174,8 @@ export default function Home() {
             <div className="lg:w-1/4 md:w-1/3 sm:w-1/2 w-1/2 p-2">
               <div className="bg-gray-50 rounded-lg p-2 border">
                 <div className="flex items-center justify-center">
-                  <div className="rounded-full">
+                  <div className="rounded-full md:w-1/3 sm:w-1/4">
+                    <img className="md:w-3/4 w-10 min-w-10" src="./img/figma.png" alt="" />
                   </div>
                   <h2 className="ml-2 font-bold">
                     Figma
