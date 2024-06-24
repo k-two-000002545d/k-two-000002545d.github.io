@@ -20,7 +20,9 @@ export default function Home() {
               JavaScript and Python.
             </h1>
             <p className="mb-8 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab rerum est debitis, ullam ducimus officiis optio assumenda iure et labore eaque quidem animi quam, impedit laborum. Eligendi nam tempore repellat!</p>
-            <button className="justify-center px-6 py-2 border-0 rounded-md text-lg text-white bg-sky-500 hover:bg-sky-600 duration-200">Contact</button>
+            <button className="justify-center px-6 py-2 border-0 rounded-md text-lg text-white bg-sky-500 hover:bg-sky-600 duration-200">
+              <a href="https://github.com/k-two-000002545d/k-two-000002545d.github.io" target="_blank">Contact</a>
+            </button>
           </div>
         </div>
       </section>
@@ -37,7 +39,7 @@ export default function Home() {
             <br />
             2021年頃から社内エンジニアとして業務に励んでいます。社内の業務改善や自動化をメインに行っています。
             <br />
-            最近はStable Diffusionで独自Loraを作成して画像生成するのに入れ込んでいます。
+            最近はStable Diffusionで独自Loraを作成し画像生成するのにハマっています。
             <br />
             お寿司が好きです🍣
             </p>
@@ -57,7 +59,7 @@ export default function Home() {
               <br />
               その他、現在勤めている会社の別部署の業務の効率化や構築の補助も行っています。
               <br />
-              ほとんどの業務は一人でこなしてきたため、設計〜リリース、運用まで対応してきました。
+              ほとんどの業務は一人でこなしてきたため、要件定義/設計〜リリース、保守運用まで対応してきました。
             </p>
           </div>
           <div className="flex flex-wrap text-gray-800">
@@ -240,19 +242,36 @@ export default function Home() {
       {/* 業務経歴 */}
       <section className="border-t border-gray-200">
         <div className="container px-5 pt-12 pb-6 w-full mx-auto">
-          <div className="text-gray-100 text-center mb-12">
+          <div className="text-gray-100 text-left sm:text-center mb-12">
             <h1 className="text-2xl sm:text-3xl font-medium mb-2">業務経歴</h1>
           </div>
+          
           <div className="w-100 p-2">
-              <div className="bg-gray-50 rounded-lg p-2 border">
-                <div className="text-gray-900 flex-grow text-center md:text-left mb-12">
-                <h2 className="text-2xl sm:text-3xl font-medium mb-2">学習系サービス</h2>
-                <p className="pb-1">
-                  説明
-                </p>
+              <div className="p-2 border-y border-gray-500">
+                <div className="flex container items-center justify-center">
+                  <div className="rounded-full md:w-1/3 flex-grow">
+                    <p className="pb-1 leading-relaxed text-gray-400 font-bold">
+                    2022年12月~2023年12月
+                    </p>
+                  </div>
+                  <div className="text-gray-100 md:w-2/3 flex-grow text-center md:text-left">
+                    <h1 className="text-2xl sm:text-3xl font-medium mb-2">応対内容情報管理Webアプリ開発</h1>
+                    <p className="pb-1 leading-relaxed">
+                    お寿司が好きです🍣
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
+        </div>
+      </section>
+
+      {/* その他 */}
+      <section className="border-t border-gray-200">
+        <div className="container px-5 pt-12 pb-6 w-full mx-auto">
+          <div className="text-gray-100 text-center mb-12">
+            <h1 className="text-2xl sm:text-3xl font-medium mb-2">趣味やいろいろ</h1>
+          </div>
         </div>
       </section>
     </main>
