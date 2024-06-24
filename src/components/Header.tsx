@@ -1,11 +1,11 @@
 const Header = () => {
     return (
         <header 
-            className=" text-gray-700 border-b border-gray-200">
+            className=" text-gray-100 border-b border-gray-200">
             <div className="container flex w-full mx-auto p-5 flex-col md:flex-row items-center">
                 <a 
                     href="" 
-                    className="font-medium  text-gray-900 mb-4 md:mb-0">
+                    className="font-medium  text-gray-100 mb-4 md:mb-0">
                     <span className="text-xl ml-3">
                         K-TWO
                     </span>
