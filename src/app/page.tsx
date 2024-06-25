@@ -31,7 +31,7 @@ export default function Home() {
       <section className="border-t border-gray-200">
         <div className="container px-5 pt-12 pb-3 w-full mx-auto">
           <div className="text-gray-100 text-left sm:text-center mb-12">
-            <h1 className="text-2xl sm:text-3xl font-medium mb-2">About Me</h1>
+            <h1 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-100 sm:text-3xl sm:leading-10 mb-2">About Me</h1>
             <p className="pb-1 leading-relaxed">
             私は情報系の工業高校で3年間、C言語とJavaを使ってプログラミングの基礎を学びました。
             <br />
@@ -51,7 +51,7 @@ export default function Home() {
       <section className="border-t border-gray-200" id="skils">
         <div className="container px-5 py-12 w-full mx-auto">
           <div className="text-gray-100 text-left sm:text-center mb-12">
-            <h1 className="text-2xl sm:text-3xl font-medium mb-2">スキル</h1>
+            <h1 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-100 sm:text-3xl sm:leading-10 mb-2">スキル</h1>
             <p className="pb-1 leading-relaxed">
               PythonとJavaScriptをメインに自動化や業務効率化システムを組むことが多いです。
               <br />
@@ -241,36 +241,177 @@ export default function Home() {
 
       {/* 業務経歴 */}
       <section className="border-t border-gray-200">
-        <div className="container px-5 pt-12 pb-6 w-full mx-auto">
-          <div className="text-gray-100 text-left sm:text-center mb-12">
-            <h1 className="text-2xl sm:text-3xl font-medium mb-2">業務経歴</h1>
-          </div>
-          
-          <div className="w-100 p-2">
-              <div className="p-2 border-y border-gray-500">
-                <div className="flex container items-center justify-center">
-                  <div className="rounded-full md:w-1/3 flex-grow">
-                    <p className="pb-1 leading-relaxed text-gray-400 font-bold">
-                    2022年12月~2023年12月
-                    </p>
-                  </div>
-                  <div className="text-gray-100 md:w-2/3 flex-grow text-center md:text-left">
-                    <h1 className="text-2xl sm:text-3xl font-medium mb-2">応対内容情報管理Webアプリ開発</h1>
-                    <p className="pb-1 leading-relaxed">
-                    お寿司が好きです🍣
-                    </p>
-                  </div>
-                </div>
-              </div>
+        <div className="container px-5 pt-12 pb-3 w-full mx-auto">
+          <div className="divide-y divide-gray-200 dark:divide-gray-700">
+            <div className="space-y-2 pb-8 pt-6 md:space-y-5">
+              <h2 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-100 sm:text-3xl sm:leading-10">
+              業務経歴
+              </h2>
+              <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+              A blog created with Next.js and Tailwind.css
+              </p>
             </div>
-        </div>
-      </section>
-
-      {/* その他 */}
-      <section className="border-t border-gray-200">
-        <div className="container px-5 pt-12 pb-6 w-full mx-auto">
-          <div className="text-gray-100 text-center mb-12">
-            <h1 className="text-2xl sm:text-3xl font-medium mb-2">趣味やいろいろ</h1>
+            <ul className="divide-y divide-gray-200 dark:divide-gray-700">
+              <li className="py-12">
+                <article>
+                  <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+                    <dl>
+                      <dt className="sr-only">Published on</dt>
+                      <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">2023年11月~2024年3月</dd>
+                    </dl>
+                    <div className="space-y-5 xl:col-span-3">
+                      <div className="space-y-6">
+                        <h2 className="text-1xl sm:text-2xl font-bold leading-8 tracking-tight text-gray-100">
+                        勤怠管理Webアプリ開発
+                        </h2>
+                        <div className="flex flex-wrap">
+                          <p className="mr-3 text-sm font-medium uppercase text-sky-400">python</p>
+                          <p className="mr-3 text-sm font-medium uppercase text-sky-400">javascript</p>
+                          <p className="mr-3 text-sm font-medium uppercase text-sky-400">html</p>
+                          <p className="mr-3 text-sm font-medium uppercase text-sky-400">css</p>
+                          <p className="mr-3 text-sm font-medium uppercase text-sky-400">gcp</p>
+                          <p className="mr-3 text-sm font-medium uppercase text-sky-400">mysql</p>
+                          <p className="mr-3 text-sm font-medium uppercase text-sky-400">Figma</p>
+                        </div>
+                      </div>
+                      <div className="prose max-w-none text-gray-500 dark:text-gray-400">
+                      自社従業員の出勤・退勤の打刻、勤務時間の算出・管理を行うWebアプリケーション開発を3人態勢で実施。
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li className="py-12">
+                <article>
+                  <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+                    <dl>
+                      <dt className="sr-only">Published on</dt>
+                      <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">2023年6月~現在</dd>
+                    </dl>
+                    <div className="space-y-5 xl:col-span-3">
+                      <div className="space-y-6">
+                        <h2 className="text-1xl sm:text-2xl font-bold leading-8 tracking-tight text-gray-100">
+                        Kintoneプラグイン開発
+                        </h2>
+                        <div className="flex flex-wrap">
+                        <p className="mr-3 text-sm font-medium uppercase text-sky-400">javascript</p>
+                        </div>
+                      </div>
+                      <div className="prose max-w-none text-gray-500 dark:text-gray-400">
+                      Kintoneにて作業効率化のプラグインを作成。
+                      ・入力制御プラグイン
+                      ・検索機能、検索窓追加
+                      ・人件費の平均金額表示追加
+                      ・対象のアプリから数値の集計、別アプリへ計算し書き込みなど
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li className="py-12">
+                <article>
+                  <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+                    <dl>
+                      <dt className="sr-only">Published on</dt>
+                      <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">2022年12月~現在</dd>
+                    </dl>
+                    <div className="space-y-5 xl:col-span-3">
+                      <div className="space-y-6">
+                        <h2 className="text-1xl sm:text-2xl font-bold leading-8 tracking-tight text-gray-100">
+                          応対内容情報管理Webアプリ開発
+                        </h2>
+                        <div className="flex flex-wrap">
+                          <p className="mr-3 text-sm font-medium uppercase text-sky-400">python</p>
+                          <p className="mr-3 text-sm font-medium uppercase text-sky-400">javascript</p>
+                          <p className="mr-3 text-sm font-medium uppercase text-sky-400">html</p>
+                          <p className="mr-3 text-sm font-medium uppercase text-sky-400">css</p>
+                          <p className="mr-3 text-sm font-medium uppercase text-sky-400">gcp</p>
+                        </div>
+                      </div>
+                      <div className="prose max-w-none text-gray-500 dark:text-gray-400">
+                      自社コールセンター業務向けのお問い合わせ履歴の作成と登録を行うWebアプリケーション開発。
+                      問い合わせ内容の定型文の自動構築をし入力時間を短縮。
+                      またどのような対応フローだったか細分化し出力させることで、管理者の数値化やフィードバックなどに活用。
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li className="py-12">
+                <article>
+                  <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+                    <dl>
+                      <dt className="sr-only">Published on</dt>
+                      <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">2022年9月~現在</dd>
+                    </dl>
+                    <div className="space-y-5 xl:col-span-3">
+                      <div className="space-y-6">
+                        <h2 className="text-1xl sm:text-2xl font-bold leading-8 tracking-tight text-gray-100">
+                          自動スクレイピングツール
+                        </h2>
+                        <div className="flex flex-wrap">
+                          <p className="mr-3 text-sm font-medium uppercase text-sky-400">python</p>
+                          <p className="mr-3 text-sm font-medium uppercase text-sky-400">selenium</p>
+                          <p className="mr-3 text-sm font-medium uppercase text-sky-400">aws</p>
+                          <p className="mr-3 text-sm font-medium uppercase text-sky-400">タスクスケジューラ</p>
+                        </div>
+                      </div>
+                      <div className="prose max-w-none text-gray-500 dark:text-gray-400">
+                      pythonとseleniumを用いてのスクレイピング。ログイン、DL作業、スクリーンショットなど部署によって使い分け。aws lambdaやタスクスケジューラを使用して自動可運用。
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li className="py-12">
+                <article>
+                  <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+                    <dl>
+                      <dt className="sr-only">Published on</dt>
+                      <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">2022年8月</dd>
+                    </dl>
+                    <div className="space-y-5 xl:col-span-3">
+                      <div className="space-y-6">
+                        <h2 className="text-1xl sm:text-2xl font-bold leading-8 tracking-tight text-gray-100">
+                        PDF自動作成/自動メール送信GAS
+                        </h2>
+                        <div className="flex flex-wrap">
+                          <p className="mr-3 text-sm font-medium uppercase text-sky-400">gas</p>
+                          <p className="mr-3 text-sm font-medium uppercase text-sky-400">javascript</p>
+                        </div>
+                      </div>
+                      <div className="prose max-w-none text-gray-500 dark:text-gray-400">
+                      GASを使用してスプレッドのリストから請求書のPDF化、リストの相手ごとにメール送信を行う作業を自動化。
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li className="py-12">
+                <article>
+                  <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+                    <dl>
+                      <dt className="sr-only">Published on</dt>
+                      <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">2021年12月~現在</dd>
+                    </dl>
+                    <div className="space-y-5 xl:col-span-3">
+                      <div className="space-y-6">
+                        <h2 className="text-1xl sm:text-2xl font-bold leading-8 tracking-tight text-gray-100">
+                          GASを使用した自動化/スプレッドシートの構築/API連携など
+                        </h2>
+                        <div className="flex flex-wrap">
+                        <p className="mr-3 text-sm font-medium uppercase text-sky-400">gas</p>
+                        <p className="mr-3 text-sm font-medium uppercase text-sky-400">javascript</p>
+                        </div>
+                      </div>
+                      <div className="prose max-w-none text-gray-500 dark:text-gray-400">
+                      現在スプレッドでの業務が殆どのためメールの自動送信、チャットワーク連携、Kintone連携、現場のスプレッド構築から関数の相談まで対応
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
