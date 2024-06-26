@@ -29,15 +29,16 @@ export default function Home() {
 
       {/* プロフィール */}
       <section className="border-t border-gray-200">
-        <div className="container px-5 pt-12 pb-3 w-full mx-auto">
-          <div className="text-gray-100 text-left sm:text-center mb-12">
-            <h1 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-100 sm:text-3xl sm:leading-10 mb-2">About Me</h1>
-            <p className="pb-1 leading-relaxed">
-            私は情報系の工業高校で3年間、C言語とJavaを使ってプログラミングの基礎を学びました。
+      <div className="flex container w-full mx-auto py-6 sm:py-16 px-5 flex-col md:flex-row items-center">
+        <div className="container px-5 pt-10 pb-6 sm:pt-20 sm:pb-16 w-full mx-auto">
+          <div className="text-gray-100 text-left mb-2">
+            <h1 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-100 sm:text-4xl sm:leading-10 mb-2">プロフィール</h1>
+            <p className="pb-1 leading-10">
+            2021年から現在まで、コールセンターの社内SEとして働いています。主な業務は、業務の自動化や効率化を図ることです。
             <br />
-            大学ではメディア学部に進学し、映像やデザイン、音楽といったクリエイティブな分野を幅広く学びました。
+            単に依頼されたシステムやツールを作成するだけでなく、現場の人々と密に関わることで、より効果的な問題解決を目指しています。
             <br />
-            2021年頃から社内エンジニアとして業務に励んでいます。社内の業務改善や自動化をメインに行っています。
+            音楽が好きでアカペラ用の楽譜作成やレコーディング・ミックスなども趣味でやってます。
             <br />
             最近はStable Diffusionで独自Loraを作成し画像生成するのにハマっています。
             <br />
@@ -45,21 +46,21 @@ export default function Home() {
             </p>
           </div>
         </div>
+        <div className="md:w-1/4 w-1/2 mb-2">
+            <img className="relative inline-block rounded-2xl overflow-hidden" src="./img/icon-3.jpg" alt="" />
+        </div>
+      </div>
       </section>
 
       {/* スキル */}
       <section className="border-t border-gray-200" id="skils">
-        <div className="container px-5 py-12 w-full mx-auto">
-          <div className="text-gray-100 text-left sm:text-center mb-12">
-            <h1 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-100 sm:text-3xl sm:leading-10 mb-2">スキル</h1>
-            <p className="pb-1 leading-relaxed">
-              PythonとJavaScriptをメインに自動化や業務効率化システムを組むことが多いです。
-              <br />
-              またGASやKintoneのスクリプト・プラグイン作成、APIを経由して外部のサービス/アプリなどと連携できるよう構築もしています。
-              <br />
-              その他、現在勤めている会社の別部署の業務の効率化や構築の補助も行っています。
-              <br />
-              ほとんどの業務は一人でこなしてきたため、要件定義/設計〜リリース、保守運用まで対応してきました。
+        <div className="container px-5 pt-10 pb-6 sm:pt-20 sm:pb-16 w-full mx-auto">
+          <div className="text-gray-100 text-left mb-6">
+            <h1 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-100 sm:text-4xl sm:leading-10 mb-2">スキル</h1>
+            <p className="pb-1 leading-10">
+              現在はPythonやJavaScript（GAS）を使用しての業務がほとんどです。
+              <br/>
+              殆どの業務は一人で行ってきたため、要件定義/設計からリリース、保守運用まで対応してきました。  
             </p>
           </div>
           <div className="flex flex-wrap text-gray-800">
@@ -92,6 +93,18 @@ export default function Home() {
               <div className="bg-gray-50 rounded-lg p-2 border">
                 <div className="flex items-center justify-center">
                   <div className="rounded-full md:w-1/3 sm:w-1/4">
+                    <img className="md:w-3/4 w-10 min-w-10" src="./img/ts.png" alt="" />
+                  </div>
+                  <h2 className="ml-2 font-bold">
+                    TypeScript<br />0.5years
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div className="lg:w-1/4 md:w-1/3 sm:w-1/2 w-1/2 p-2">
+              <div className="bg-gray-50 rounded-lg p-2 border">
+                <div className="flex items-center justify-center">
+                  <div className="rounded-full md:w-1/3 sm:w-1/4">
                     <img className="md:w-3/4 w-10 min-w-10" src="./img/html.png" alt="" />
                   </div>
                   <h2 className="ml-2 font-bold">
@@ -100,6 +113,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
+            {/* 2行目 */}
             <div className="lg:w-1/4 md:w-1/3 sm:w-1/2 w-1/2 p-2">
               <div className="bg-gray-50 rounded-lg p-2 border">
                 <div className="flex items-center justify-center">
@@ -112,7 +126,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            {/* 2行目 */}
             <div className="lg:w-1/4 md:w-1/3 sm:w-1/2 w-1/2 p-2">
               <div className="bg-gray-50 rounded-lg p-2 border">
                 <div className="flex items-center justify-center">
@@ -149,6 +162,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
+            {/* 3行目 */}
             <div className="lg:w-1/4 md:w-1/3 sm:w-1/2 w-1/2 p-2">
               <div className="bg-gray-50 rounded-lg p-2 border">
                 <div className="flex items-center justify-center">
@@ -161,7 +175,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            {/* 3行目 */}
             <div className="lg:w-1/4 md:w-1/3 sm:w-1/2 w-1/2 p-2">
               <div className="bg-gray-50 rounded-lg p-2 border">
                 <div className="flex items-center justify-center">
@@ -198,6 +211,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
+            {/* 4行目 */}
             <div className="lg:w-1/4 md:w-1/3 sm:w-1/2 w-1/2 p-2">
               <div className="bg-gray-50 rounded-lg p-2 border">
                 <div className="flex items-center justify-center">
@@ -210,7 +224,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            {/* 4行目 */}
             <div className="lg:w-1/4 md:w-1/3 sm:w-1/2 w-1/2 p-2">
               <div className="bg-gray-50 rounded-lg p-2 border">
                 <div className="flex items-center justify-center">
@@ -241,15 +254,37 @@ export default function Home() {
 
       {/* 業務経歴 */}
       <section className="border-t border-gray-200">
-        <div className="container px-5 pt-12 pb-3 w-full mx-auto">
+        <div className="container px-5 pt-10 pb-6 sm:pt-20 sm:pb-16 w-full mx-auto">
           <div className="divide-y divide-gray-200 dark:divide-gray-700">
             <div className="space-y-2 pb-8 pt-6 md:space-y-5">
-              <h2 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-100 sm:text-3xl sm:leading-10">
-              業務経歴
+              <h2 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-100 sm:text-4xl sm:leading-10">
+              業務内容と業務経歴
               </h2>
-              <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-              A blog created with Next.js and Tailwind.css
-              </p>
+              <div className="space-y-1">
+                <h3 className="text-lg text-gray-100">①業務の自動化・効率化</h3>
+                <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+                業務プロセスを見直し、自動化することで生産性を向上させるツールやシステムを開発・導入しています。
+                </p>
+              </div>
+              <div className="space-y-1">
+                <h3 className="text-lg text-gray-100">②現場との連携</h3>
+                <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+                実際にシステムを使用する現場のスタッフとコミュニケーションを取り、現場のニーズや課題を直接把握し、最適なソリューションを提供しています。
+                </p>
+              </div>
+              <div className="space-y-1">
+                <h3 className="text-lg text-gray-100">③ヘルプデスク業務</h3>
+                <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+                社内の技術サポートを行い、日常的なITトラブルの解決や、システムの使用に関する問い合わせに対応しています。
+                </p>
+              </div>
+              <div className="space-y-1">
+                <h3 className="text-lg text-gray-100">④インフラ補助</h3>
+                <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+                専門のインフラエンジニアがいますが、必要に応じて社内インフラのサポートも行っています。
+                </p>
+              </div>
+
             </div>
             <ul className="divide-y divide-gray-200 dark:divide-gray-700">
               <li className="py-12">
@@ -259,8 +294,8 @@ export default function Home() {
                       <dt className="sr-only">Published on</dt>
                       <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">2023年11月~2024年3月</dd>
                     </dl>
-                    <div className="space-y-5 xl:col-span-3">
-                      <div className="space-y-6">
+                    <div className="space-y-6 xl:col-span-3">
+                      <div className="space-y-2">
                         <h2 className="text-1xl sm:text-2xl font-bold leading-8 tracking-tight text-gray-100">
                         勤怠管理Webアプリ開発
                         </h2>
@@ -276,6 +311,8 @@ export default function Home() {
                       </div>
                       <div className="prose max-w-none text-gray-500 dark:text-gray-400">
                       自社従業員の出勤・退勤の打刻、勤務時間の算出・管理を行うWebアプリケーション開発を3人態勢で実施。
+                      <br/>
+                      手計算やスプレッドで集計していた事務総務全体の作業時間を削減。
                       </div>
                     </div>
                   </div>
@@ -288,8 +325,8 @@ export default function Home() {
                       <dt className="sr-only">Published on</dt>
                       <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">2023年6月~現在</dd>
                     </dl>
-                    <div className="space-y-5 xl:col-span-3">
-                      <div className="space-y-6">
+                    <div className="space-y-6 xl:col-span-3">
+                      <div className="space-y-2">
                         <h2 className="text-1xl sm:text-2xl font-bold leading-8 tracking-tight text-gray-100">
                         Kintoneプラグイン開発
                         </h2>
@@ -298,10 +335,14 @@ export default function Home() {
                         </div>
                       </div>
                       <div className="prose max-w-none text-gray-500 dark:text-gray-400">
-                      Kintoneにて作業効率化のプラグインを作成。
+                      Kintoneにて作業効率化のプラグインを作成。毎日の集計作業・ミスチェックなど確認する時間を削減。
+                      <br/>
                       ・入力制御プラグイン
+                      <br/>
                       ・検索機能、検索窓追加
+                      <br/>
                       ・人件費の平均金額表示追加
+                      <br/>
                       ・対象のアプリから数値の集計、別アプリへ計算し書き込みなど
                       </div>
                     </div>
@@ -315,8 +356,8 @@ export default function Home() {
                       <dt className="sr-only">Published on</dt>
                       <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">2022年12月~現在</dd>
                     </dl>
-                    <div className="space-y-5 xl:col-span-3">
-                      <div className="space-y-6">
+                    <div className="space-y-6 xl:col-span-3">
+                      <div className="space-y-2">
                         <h2 className="text-1xl sm:text-2xl font-bold leading-8 tracking-tight text-gray-100">
                           応対内容情報管理Webアプリ開発
                         </h2>
@@ -344,8 +385,8 @@ export default function Home() {
                       <dt className="sr-only">Published on</dt>
                       <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">2022年9月~現在</dd>
                     </dl>
-                    <div className="space-y-5 xl:col-span-3">
-                      <div className="space-y-6">
+                    <div className="space-y-6 xl:col-span-3">
+                      <div className="space-y-2">
                         <h2 className="text-1xl sm:text-2xl font-bold leading-8 tracking-tight text-gray-100">
                           自動スクレイピングツール
                         </h2>
@@ -358,6 +399,8 @@ export default function Home() {
                       </div>
                       <div className="prose max-w-none text-gray-500 dark:text-gray-400">
                       pythonとseleniumを用いてのスクレイピング。ログイン、DL作業、スクリーンショットなど部署によって使い分け。aws lambdaやタスクスケジューラを使用して自動可運用。
+                      <br/>
+                      一部では月で約40時間の工数削減に成功。手作業での対応がなくなり他の業務に時間が使えるようになった。
                       </div>
                     </div>
                   </div>
@@ -370,8 +413,8 @@ export default function Home() {
                       <dt className="sr-only">Published on</dt>
                       <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">2022年8月</dd>
                     </dl>
-                    <div className="space-y-5 xl:col-span-3">
-                      <div className="space-y-6">
+                    <div className="space-y-6 xl:col-span-3">
+                      <div className="space-y-2">
                         <h2 className="text-1xl sm:text-2xl font-bold leading-8 tracking-tight text-gray-100">
                         PDF自動作成/自動メール送信GAS
                         </h2>
@@ -382,6 +425,8 @@ export default function Home() {
                       </div>
                       <div className="prose max-w-none text-gray-500 dark:text-gray-400">
                       GASを使用してスプレッドのリストから請求書のPDF化、リストの相手ごとにメール送信を行う作業を自動化。
+                      <br/>
+                      毎月一人一人に手動で行っていたPDF請求書作成・メール送信を無くし、30分ほどで終われるように。
                       </div>
                     </div>
                   </div>
@@ -394,8 +439,8 @@ export default function Home() {
                       <dt className="sr-only">Published on</dt>
                       <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">2021年12月~現在</dd>
                     </dl>
-                    <div className="space-y-5 xl:col-span-3">
-                      <div className="space-y-6">
+                    <div className="space-y-6 xl:col-span-3">
+                      <div className="space-y-2">
                         <h2 className="text-1xl sm:text-2xl font-bold leading-8 tracking-tight text-gray-100">
                           GASを使用した自動化/スプレッドシートの構築/API連携など
                         </h2>
@@ -405,7 +450,9 @@ export default function Home() {
                         </div>
                       </div>
                       <div className="prose max-w-none text-gray-500 dark:text-gray-400">
-                      現在スプレッドでの業務が殆どのためメールの自動送信、チャットワーク連携、Kintone連携、現場のスプレッド構築から関数の相談まで対応
+                      現在スプレッドでの業務が殆ど。Slack・ChatWork連携、Kintone連携、現場のスプレッド構築から関数の相談まで対応。
+                      <br/>
+                      自動通知や自動報告、集計などスプレッドで業務をする現場の全体的な作業時間の削減を行う。
                       </div>
                     </div>
                   </div>
