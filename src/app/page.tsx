@@ -13,22 +13,26 @@ export default function Home() {
           </div>
           <div className="md:w-1/2 flex-grow text-center md:text-left">
             <h1 className="text-3xl md:text-6xl text-gray-100 font-medium mb-4">
-              K-TWO
+              KATO
               <br />
               Playing with
               <br />
               JavaScript and Python.
             </h1>
-            <p className="mb-8 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab rerum est debitis, ullam ducimus officiis optio assumenda iure et labore eaque quidem animi quam, impedit laborum. Eligendi nam tempore repellat!</p>
+            <p className="mb-8 leading-relaxed">
+            ポートフォリオへようこそ！私は社内SEとして、技術と現場の橋渡し役を務めています。現場の業務効率化や自動化を通じて、会社の成長をサポートすることに情熱を持っています。このポートフォリオを通して私のスキルやプロジェクトを知っていただければ幸いです。
+            </p>
+            {/*
             <button className="justify-center px-6 py-2 border-0 rounded-md text-lg text-white bg-sky-500 hover:bg-sky-600 duration-200">
               <a href="https://github.com/k-two-000002545d/k-two-000002545d.github.io" target="_blank">Contact</a>
             </button>
+            */}
           </div>
         </div>
       </section>
 
       {/* プロフィール */}
-      <section className="border-t border-gray-200">
+      <section className="border-t border-gray-100" id="about">
       <div className="flex container w-full mx-auto py-6 sm:py-16 px-5 flex-col md:flex-row items-center">
         <div className="container px-5 pt-10 pb-6 sm:pt-20 sm:pb-16 w-full mx-auto">
           <div className="text-gray-100 text-left mb-2">
@@ -53,7 +57,7 @@ export default function Home() {
       </section>
 
       {/* スキル */}
-      <section className="border-t border-gray-200" id="skils">
+      <section className="border-t border-gray-100" id="skils">
         <div className="container px-5 pt-10 pb-6 sm:pt-20 sm:pb-16 w-full mx-auto">
           <div className="text-gray-100 text-left mb-6">
             <h1 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-100 sm:text-4xl sm:leading-10 mb-2">スキル</h1>
@@ -65,7 +69,7 @@ export default function Home() {
           </div>
           <div className="flex flex-wrap text-gray-800">
             {/* 1行目 */}
-            <div className="lg:w-1/4 md:w-1/3 sm:w-1/2 w-1/2 p-2">
+            <div className="lg:w-1/5 md:w-1/3 sm:w-1/2 w-1/2 p-2">
               <div className="bg-gray-50 rounded-lg p-2 border">
                 <div className="flex items-center justify-center">
                   <div className="rounded-full md:w-1/3 sm:w-1/4">
@@ -77,7 +81,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/4 md:w-1/3 sm:w-1/2 w-1/2 p-2">
+            <div className="lg:w-1/5 md:w-1/3 sm:w-1/2 w-1/2 p-2">
               <div className="bg-gray-50 rounded-lg p-2 border">
                 <div className="flex items-center justify-center">
                   <div className="rounded-full md:w-1/3 sm:w-1/4">
@@ -89,19 +93,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/4 md:w-1/3 sm:w-1/2 w-1/2 p-2">
-              <div className="bg-gray-50 rounded-lg p-2 border">
-                <div className="flex items-center justify-center">
-                  <div className="rounded-full md:w-1/3 sm:w-1/4">
-                    <img className="md:w-3/4 w-10 min-w-10" src="./img/ts.png" alt="" />
-                  </div>
-                  <h2 className="ml-2 font-bold">
-                    TypeScript<br />0.5years
-                  </h2>
-                </div>
-              </div>
-            </div>
-            <div className="lg:w-1/4 md:w-1/3 sm:w-1/2 w-1/2 p-2">
+            <div className="lg:w-1/5 md:w-1/3 sm:w-1/2 w-1/2 p-2">
               <div className="bg-gray-50 rounded-lg p-2 border">
                 <div className="flex items-center justify-center">
                   <div className="rounded-full md:w-1/3 sm:w-1/4">
@@ -113,8 +105,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            {/* 2行目 */}
-            <div className="lg:w-1/4 md:w-1/3 sm:w-1/2 w-1/2 p-2">
+            <div className="lg:w-1/5 md:w-1/3 sm:w-1/2 w-1/2 p-2">
               <div className="bg-gray-50 rounded-lg p-2 border">
                 <div className="flex items-center justify-center">
                   <div className="rounded-full md:w-1/3 sm:w-1/4">
@@ -126,56 +117,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/4 md:w-1/3 sm:w-1/2 w-1/2 p-2">
-              <div className="bg-gray-50 rounded-lg p-2 border">
-                <div className="flex items-center justify-center">
-                  <div className="rounded-full md:w-1/3 sm:w-1/4">
-                    <img className="md:w-3/4 w-10 min-w-10" src="./img/django.png" alt="" />
-                  </div>
-                  <h2 className="ml-2 font-bold">
-                    Django<br />2years
-                  </h2>
-                </div>
-              </div>
-            </div>
-            <div className="lg:w-1/4 md:w-1/3 sm:w-1/2 w-1/2 p-2">
-              <div className="bg-gray-50 rounded-lg p-2 border">
-                <div className="flex items-center justify-center">
-                  <div className="rounded-full md:w-1/3 sm:w-1/4">
-                    <img className="md:w-3/4 w-10 min-w-10" src="./img/next.png" alt="" />
-                  </div>
-                  <h2 className="ml-2 font-bold">
-                    Next.js<br />0.5years
-                  </h2>
-                </div>
-              </div>
-            </div>
-            <div className="lg:w-1/4 md:w-1/3 sm:w-1/2 w-1/2 p-2">
-              <div className="bg-gray-50 rounded-lg p-2 border">
-                <div className="flex items-center justify-center">
-                  <div className="rounded-full md:w-1/3 sm:w-1/4">
-                    <img className="md:w-3/4 w-10 min-w-10" src="./img/node.png" alt="" />
-                  </div>
-                  <h2 className="ml-2 font-bold">
-                    Node.js<br />0.5years
-                  </h2>
-                </div>
-              </div>
-            </div>
-            {/* 3行目 */}
-            <div className="lg:w-1/4 md:w-1/3 sm:w-1/2 w-1/2 p-2">
-              <div className="bg-gray-50 rounded-lg p-2 border">
-                <div className="flex items-center justify-center">
-                  <div className="rounded-full md:w-1/3 sm:w-1/4">
-                    <img className="md:w-3/4 w-10 min-w-10" src="./img/react.png" alt="" />
-                  </div>
-                  <h2 className="ml-2 font-bold">
-                    React<br />0.5years
-                  </h2>
-                </div>
-              </div>
-            </div>
-            <div className="lg:w-1/4 md:w-1/3 sm:w-1/2 w-1/2 p-2">
+            <div className="lg:w-1/5 md:w-1/3 sm:w-1/2 w-1/2 p-2">
               <div className="bg-gray-50 rounded-lg p-2 border">
                 <div className="flex items-center justify-center">
                   <div className="rounded-full md:w-1/3 sm:w-1/4">
@@ -187,7 +129,20 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/4 md:w-1/3 sm:w-1/2 w-1/2 p-2">
+            {/* 2行目 */}
+            <div className="lg:w-1/5 md:w-1/3 sm:w-1/2 w-1/2 p-2">
+              <div className="bg-gray-50 rounded-lg p-2 border">
+                <div className="flex items-center justify-center">
+                  <div className="rounded-full md:w-1/3 sm:w-1/4">
+                    <img className="md:w-3/4 w-10 min-w-10" src="./img/django.png" alt="" />
+                  </div>
+                  <h2 className="ml-2 font-bold">
+                    Django<br />2years
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div className="lg:w-1/5 md:w-1/3 sm:w-1/2 w-1/2 p-2">
               <div className="bg-gray-50 rounded-lg p-2 border">
                 <div className="flex items-center justify-center">
                   <div className="rounded-full md:w-1/3 sm:w-1/4">
@@ -199,32 +154,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/4 md:w-1/3 sm:w-1/2 w-1/2 p-2">
-              <div className="bg-gray-50 rounded-lg p-2 border">
-                <div className="flex items-center justify-center">
-                  <div className="rounded-full md:w-1/3 sm:w-1/4">
-                    <img className="md:w-3/4 w-10 min-w-10" src="./img/mysql.png" alt="" />
-                  </div>
-                  <h2 className="ml-2 font-bold">
-                    MySQL<br />1years
-                  </h2>
-                </div>
-              </div>
-            </div>
-            {/* 4行目 */}
-            <div className="lg:w-1/4 md:w-1/3 sm:w-1/2 w-1/2 p-2">
-              <div className="bg-gray-50 rounded-lg p-2 border">
-                <div className="flex items-center justify-center">
-                  <div className="rounded-full md:w-1/3 sm:w-1/4">
-                    <img className="md:w-3/4 w-10 min-w-10" src="./img/mongodb.png" alt="" />
-                  </div>
-                  <h2 className="ml-2 font-bold">
-                    MongoDB<br />0.5years
-                  </h2>
-                </div>
-              </div>
-            </div>
-            <div className="lg:w-1/4 md:w-1/3 sm:w-1/2 w-1/2 p-2">
+            <div className="lg:w-1/5 md:w-1/3 sm:w-1/2 w-1/2 p-2">
               <div className="bg-gray-50 rounded-lg p-2 border">
                 <div className="flex items-center justify-center">
                   <div className="rounded-full md:w-1/3 sm:w-1/4">
@@ -236,7 +166,19 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/4 md:w-1/3 sm:w-1/2 w-1/2 p-2">
+            <div className="lg:w-1/5 md:w-1/3 sm:w-1/2 w-1/2 p-2">
+              <div className="bg-gray-50 rounded-lg p-2 border">
+                <div className="flex items-center justify-center">
+                  <div className="rounded-full md:w-1/3 sm:w-1/4">
+                    <img className="md:w-3/4 w-10 min-w-10" src="./img/mysql.png" alt="" />
+                  </div>
+                  <h2 className="ml-2 font-bold">
+                    MySQL<br />1years
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div className="lg:w-1/5 md:w-1/3 sm:w-1/2 w-1/2 p-2">
               <div className="bg-gray-50 rounded-lg p-2 border">
                 <div className="flex items-center justify-center">
                   <div className="rounded-full md:w-1/3 sm:w-1/4">
@@ -248,12 +190,73 @@ export default function Home() {
                 </div>
               </div>
             </div>
+            {/* 3行目 */}
+            <div className="lg:w-1/5 md:w-1/3 sm:w-1/2 w-1/2 p-2">
+              <div className="bg-gray-50 rounded-lg p-2 border">
+                <div className="flex items-center justify-center">
+                  <div className="rounded-full md:w-1/3 sm:w-1/4">
+                    <img className="md:w-3/4 w-10 min-w-10" src="./img/ts.png" alt="" />
+                  </div>
+                  <h2 className="ml-2 font-bold">
+                    TypeScript<br />0.5years
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div className="lg:w-1/5 md:w-1/3 sm:w-1/2 w-1/2 p-2">
+              <div className="bg-gray-50 rounded-lg p-2 border">
+                <div className="flex items-center justify-center">
+                  <div className="rounded-full md:w-1/3 sm:w-1/4">
+                    <img className="md:w-3/4 w-10 min-w-10" src="./img/next.png" alt="" />
+                  </div>
+                  <h2 className="ml-2 font-bold">
+                    Next.js<br />0.5years
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div className="lg:w-1/5 md:w-1/3 sm:w-1/2 w-1/2 p-2">
+              <div className="bg-gray-50 rounded-lg p-2 border">
+                <div className="flex items-center justify-center">
+                  <div className="rounded-full md:w-1/3 sm:w-1/4">
+                    <img className="md:w-3/4 w-10 min-w-10" src="./img/node.png" alt="" />
+                  </div>
+                  <h2 className="ml-2 font-bold">
+                    Node.js<br />0.5years
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div className="lg:w-1/5 md:w-1/3 sm:w-1/2 w-1/2 p-2">
+              <div className="bg-gray-50 rounded-lg p-2 border">
+                <div className="flex items-center justify-center">
+                  <div className="rounded-full md:w-1/3 sm:w-1/4">
+                    <img className="md:w-3/4 w-10 min-w-10" src="./img/react.png" alt="" />
+                  </div>
+                  <h2 className="ml-2 font-bold">
+                    React<br />0.5years
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div className="lg:w-1/5 md:w-1/3 sm:w-1/2 w-1/2 p-2">
+              <div className="bg-gray-50 rounded-lg p-2 border">
+                <div className="flex items-center justify-center">
+                  <div className="rounded-full md:w-1/3 sm:w-1/4">
+                    <img className="md:w-3/4 w-10 min-w-10" src="./img/mongodb.png" alt="" />
+                  </div>
+                  <h2 className="ml-2 font-bold">
+                    MongoDB<br />0.5years
+                  </h2>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       {/* 業務経歴 */}
-      <section className="border-t border-gray-200">
+      <section className="border-t border-gray-100" id="business">
         <div className="container px-5 pt-10 pb-6 sm:pt-20 sm:pb-16 w-full mx-auto">
           <div className="divide-y divide-gray-200 dark:divide-gray-700">
             <div className="space-y-2 pb-8 pt-6 md:space-y-5">
@@ -310,7 +313,7 @@ export default function Home() {
                         </div>
                       </div>
                       <div className="prose max-w-none text-gray-500 dark:text-gray-400">
-                      自社従業員の出勤・退勤の打刻、勤務時間の算出・管理を行うWebアプリケーション開発を3人態勢で実施。
+                      社内向けの従業員の出勤・退勤の打刻、勤務時間の算出・管理を行うWebアプリケーション開発を3人態勢で実施。
                       <br/>
                       手計算やスプレッドで集計していた事務総務全体の作業時間を削減。
                       </div>

@@ -7,18 +7,18 @@ const Header = () => {
                     href="" 
                     className="font-medium  text-gray-100 mb-4 md:mb-0">
                     <span className="text-xl ml-3">
-                        K-TWO
+                        KATO TAISUKE
                     </span>
                 </a>
                 <nav className="md:ml-auto text-base">
-                    <a href="" className="mr-5 hover:text-blue-400 duration-200">
-                        Home
+                    <a href="#about" className="mr-5 hover:text-blue-400 duration-200">
+                        プロフィール
                     </a>
-                    <a href="" className="mr-5 hover:text-blue-400 duration-200">
-                        About
+                    <a href="#skils" className="mr-5 hover:text-blue-400 duration-200">
+                        スキル
                     </a>
-                    <a href="" className=" hover:text-blue-400 duration-200">
-                        Skils
+                    <a href="#business" className=" hover:text-blue-400 duration-200">
+                        業務経歴
                     </a>
                 </nav>
             </div>
