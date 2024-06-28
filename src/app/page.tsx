@@ -13,11 +13,9 @@ export default function Home() {
           </div>
           <div className="md:w-1/2 flex-grow text-center md:text-left">
             <h1 className="text-3xl md:text-6xl text-gray-100 font-medium mb-4">
-              KATO
+              KATO TAISUKE
               <br />
-              Playing with
-              <br />
-              JavaScript and Python.
+              My Portfolio.
             </h1>
             <p className="mb-8 leading-relaxed">
             ポートフォリオへようこそ！私は社内SEとして、技術と現場の橋渡し役を務めています。現場の業務効率化や自動化を通じて、会社の成長をサポートすることに情熱を持っています。このポートフォリオを通して私のスキルやプロジェクトを知っていただければ幸いです。
