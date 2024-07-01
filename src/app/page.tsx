@@ -259,7 +259,7 @@ export default function Home() {
           <div className="divide-y divide-gray-200 dark:divide-gray-700">
             <div className="space-y-2 pb-8 pt-6 md:space-y-5">
               <h2 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-100 sm:text-4xl sm:leading-10">
-              業務内容と業務経歴
+              業務経歴
               </h2>
               <div className="space-y-1">
                 <h3 className="text-lg text-gray-100">①業務の自動化・効率化</h3>
