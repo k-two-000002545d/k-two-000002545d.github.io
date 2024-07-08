@@ -18,7 +18,7 @@ export default function Home() {
               My Portfolio.
             </h1>
             <p className="mb-8 leading-relaxed">
-            ポートフォリオへようこそ！私は社内SEとして、技術と現場の橋渡し役を務めています。現場の業務効率化や自動化を通じて、会社の成長をサポートすることに情熱を持っています。このポートフォリオを通して私のスキルやプロジェクトを知っていただければ幸いです。
+            ポートフォリオへようこそ！私は社内SEとして、現場の業務効率化や自動化を通じて、会社の成長をサポートすることにやりがいを感じています。このポートフォリオを通して私のスキルや携わったプロジェクトを知っていただければ幸いです。
             </p>
             {/*
             <button className="justify-center px-6 py-2 border-0 rounded-md text-lg text-white bg-sky-500 hover:bg-sky-600 duration-200">
@@ -31,27 +31,27 @@ export default function Home() {
 
       {/* プロフィール */}
       <section className="border-t border-gray-100" id="about">
-      <div className="flex container w-full mx-auto py-6 sm:py-16 px-5 flex-col md:flex-row items-center">
-        <div className="container px-5 pt-10 pb-6 sm:pt-20 sm:pb-16 w-full mx-auto">
-          <div className="text-gray-100 text-left mb-2">
-            <h1 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-100 sm:text-4xl sm:leading-10 mb-2">プロフィール</h1>
-            <p className="pb-1 leading-10">
-            2021年から現在まで、コールセンターの社内SEとして働いています。主な業務は、業務の自動化や効率化を図ることです。
-            <br />
-            単に依頼されたシステムやツールを作成するだけでなく、現場の人々と密に関わることで、より効果的な問題解決を目指しています。
-            <br />
-            音楽が好きでアカペラ用の楽譜作成やレコーディング・ミックスなども趣味でやってます。
-            <br />
-            最近はStable Diffusionで独自Loraを作成し画像生成するのにハマっています。
-            <br />
-            お寿司が好きです🍣
-            </p>
+        <div className="flex container w-full mx-auto py-6 sm:py-16 px-5 flex-col md:flex-row items-center">
+          <div className="container px-5 pt-10 pb-6 sm:pt-20 sm:pb-16 w-full mx-auto">
+            <div className="text-gray-100 text-left mb-2">
+              <h1 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-100 sm:text-4xl sm:leading-10 mb-2">プロフィール</h1>
+              <p className="pb-1 leading-10">
+              2021年から現在まで、コールセンターの社内SEとして働いています。主な業務は、業務の自動化や効率化を図ることです。
+              <br />
+              単に依頼されたシステムやツールを作成するだけでなく、現場の人々と密に関わることで、より効果的な問題解決を目指してます。
+              <br />
+              音楽が好きでアカペラ用の楽譜作成やレコーディング・ミックスなども趣味でやってます。
+              <br />
+              最近はStable Diffusionで独自Loraを作成しAI画像生成するのにハマっています。
+              <br />
+              お寿司が好きです🍣
+              </p>
+            </div>
+          </div>
+          <div className="md:w-1/4 w-1/2 mb-2">
+              <img className="relative inline-block rounded-2xl overflow-hidden" src="./img/icon-3.jpg" alt="" />
           </div>
         </div>
-        <div className="md:w-1/4 w-1/2 mb-2">
-            <img className="relative inline-block rounded-2xl overflow-hidden" src="./img/icon-3.jpg" alt="" />
-        </div>
-      </div>
       </section>
 
       {/* スキル */}
