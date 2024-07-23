@@ -18,7 +18,7 @@ export default function Home() {
               My Portfolio.
             </h1>
             <p className="mb-8 leading-relaxed">
-            ポートフォリオへようこそ！私は社内SEとして、現場の業務効率化や自動化を通じて、会社の成長をサポートすることにやりがいを感じています。このポートフォリオを通して私のスキルや携わったプロジェクトを知っていただければ幸いです。
+            ポートフォリオへようこそ！私は社内SEとして、現場の業務効率化や自動化を活かし、会社をサポートすることにやりがいを感じています。このポートフォリオを通して私のスキルや携わったプロジェクトを知っていただければ幸いです。
             </p>
             {/*
             <button className="justify-center px-6 py-2 border-0 rounded-md text-lg text-white bg-sky-500 hover:bg-sky-600 duration-200">
